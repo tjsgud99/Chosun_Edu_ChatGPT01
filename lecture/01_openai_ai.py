@@ -17,9 +17,10 @@
 # OpenAi 회사에서 GPT 관련 API 제공
 #   -https://openai.com/blog/openai-api
 #ssss
+import os
 
 from openai import OpenAI
-client = OpenAI(api_key="sk-gcDD9veHd7XdK7Az9MqlT3BlbkFJ0T12o")
+client = OpenAI(api_key="sk-gcDD9veHd7XsjXkTJXgmQaZoo")
 
 completion = client.chat.completions.create(
   model="gpt-3.5-turbo",
